@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding:0;
+}
+
+body{
+  text-align: center;
+ 
+}
+
+.title{
+  padding:16px;
+  background-color: #222;
+  color:#fff;
+  margin-bottom: 20px;
+}
+.gal{
+  display: grid;
+
+  grid-gap: 15px;
+  padding:15px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)) ;
+}
+.photo{
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  cursor: zoom-in;
+}
+.galfull{
+  /* display: block;
+ background-color: white;
+width: 100%;
+height:100%;
+overflow: hidden; */
+}
+.unique{
+  background-color: rgba(56, 54, 54, 0.253);
+  height: 80%;
+}
+.photofull{
+  width: 60%;
+  height: 60%;
+  cursor: zoom-out;
+}
